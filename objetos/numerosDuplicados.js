@@ -6,8 +6,7 @@
 
 //1 Recorré el Arreglo numeros y poné cada número (2, 4, 5, 37, 0) como una Propiedad del Objeto numeros_duplicados. 
 //2 El Valor de cada Propiedad deberá ser ese número multiplicado por dos.
-// numeros_duplicados[numeros] = [2, 4, 5, 37, 0]; (Asi no hacerlo)
-// console.log('Numeros Duplicados: ', numeros_duplicados); 
+
 let numeros = [2, 4, 5, 37, 0];
 let numeros_duplicados = {};
 
