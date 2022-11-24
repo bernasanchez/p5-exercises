@@ -7,14 +7,15 @@
 
 let arrayObjetos = []; 
 let objetos = {}; 
-let num = 5; 
-let palabra = 'hola';
+let num = 3; 
+let palabra = 'chau';
 let arregloDeObjetos = ((num, palabra) => {
+    console.log(palabra)
     let i = 1; 
-    let acc = 0; 
+    // let acc = 0; 
     while(i <= num ){
         arrayObjetos.push(
-            { palabra: i }
+            {[`${palabra}`]: i }
         )
         i++
         // objetos[palabra] = acc + i
