@@ -6,7 +6,6 @@
 // arregloDeObjetos(3, “chau”) debe retornar [{chau: 1}, {chau: 2}, {chau: 3}]
 
 let arrayObjetos = []; 
-let objetos = {}; 
 let num = 3; 
 let palabra = 'chau';
 let arregloDeObjetos = ((num, palabra) => {
@@ -27,3 +26,16 @@ let arregloDeObjetos = ((num, palabra) => {
 })
 arregloDeObjetos(num, palabra); 
 console.log('Arreglo de Objetos:', arrayObjetos);
+
+
+
+//RESOLUCION MANO
+// const arregloDeObjetos = (num) => {
+//     let array = [];
+//     for (let i = 1; i <= num; i++) {        
+//         array.push({["valor"]: i});
+//     }
+//     return array;
+// }
+
+// console.log(arregloDeObjetos(10));

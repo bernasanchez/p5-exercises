@@ -13,13 +13,13 @@ let arreglo = [
 
 let nuevoArreglo = [];
 let propiedad = 'name'
-let oneProperty = ((arreglo, propiedad ) => {
+let oneProperty = (arreglo, propiedad ) => {
     // console.log(propiedad); 
     for(let i = 0; i < arreglo.length; i++){
         nuevoArreglo.push(
-            {[`${propiedad}`]: arreglo[i][`${propiedad}`] }
+            {[propiedad]: arreglo[i][`${propiedad}`] }
         )
     }
-})
+}
 oneProperty(arreglo, propiedad);
 console.log('Arreglo con una propiedad: ',nuevoArreglo); 
