@@ -6,16 +6,18 @@
 // middleCharacter(“hola”) debe retornar “ol”
 // middleCharacter(“cosas”) debe retornar “s”
 
-let palabra = 'plataforma5'
-let guardarLetra; 
-let middleCharacter = ((palabra) => {
+let middleCharacter = (str) => {
+    str = str.split('') //Se puede hacer o no..
+    console.log(str)
+    let medio = Math.floor(str.length / 2) //saco el caracter del medio sin el decimal de la division 
 
-    let letraBorrada = palabra.split('')
-    guardarLetra = letraBorrada.splice((letraBorrada.length -1)/2, 1)
-    console.log(guardarLetra)
-    return guardarLetra; 
-   
-})
+    if(str.length % 2 == 0){  //pregunto si es par o impar el lengh para devolver el medio
+        console.log( str[medio - 1] + str[medio]   )
+    }else{
+        console.log(str[medio])
+    }
 
-middleCharacter(palabra); 
-console.log(guardarLetra)
+}
+middleCharacter ('hola')
+middleCharacter('plataforma5')
+middleCharacter ('cosas')
