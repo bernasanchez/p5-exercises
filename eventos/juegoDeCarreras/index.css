@@ -1,0 +1,15 @@
+#pista{
+    height: 600px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;   
+}
+#autoRojo{
+    height: 200px;
+    width: 200px;
+}
+#autoAzul{
+    height: 200px;
+    width: 200px;
+}

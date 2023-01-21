@@ -1,0 +1,11 @@
+#fondoMouse{
+    height: 1000px;
+    width: 1000px;
+    background: 'https://i.postimg.cc/k5xk9tBK/jnCXdAx.jpg';
+}
+
+#mouseImg{
+    position: fixed;
+    height: 300px;
+    width: 300px;
+}

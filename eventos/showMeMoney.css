@@ -1,0 +1,12 @@
+.row{
+    margin-top: 20px;
+}
+.col img{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 20px;
+}
+
+.oculto{
+    display: none;
+}
