@@ -1,9 +1,10 @@
 #pista{
     height: 600px;
+    width: 250px;
     background-color: darkgray;
     display: flex;
     flex-direction: column;
-    justify-content:center;   
+    justify-content:space-around;   
 }
 #autoRojo{
     height: 200px;
@@ -12,4 +13,8 @@
 #autoAzul{
     height: 200px;
     width: 200px;
+}
+#lineaPunteada{
+    border-style: dashed;
+    border-width: 10px;
 }
