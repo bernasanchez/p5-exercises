@@ -13,7 +13,6 @@ window.addEventListener('keyup', function(e){
     if(e.key == 'd'){
         accRojo++; 
         autoRojo.style.marginLeft = accRojo + 'px'
-        console.log(autoRojo.style.marginLeft)
     }else if(e.key == '3'){
         accAzul++; 
         autoAzul.style.marginLeft = accAzul + 'px'
