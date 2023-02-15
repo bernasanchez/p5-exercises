@@ -21,6 +21,6 @@ let notaFinal = estudiantes.map((estudiante, index) => {
 })
 
 console.log(notaFinal)
-
+console.log(notaFinal)
 
 
